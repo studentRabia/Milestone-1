@@ -1,0 +1,140 @@
+
+  /* General styles */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .resume-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Left Section */
+  .left-section {
+    background-color: #080808;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 25px 10px 25px 10px;
+    border: 4px solid #022927e6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  /* Right Section */
+  .right-section {
+    background-color: rgb(152, 151, 158);
+    padding: 20px;
+    width: 100%;
+    flex: 1;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: #022927e6;
+    text-align: center;
+  }
+
+  span {
+    color: #010c0be6;
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    color: #022927e6;
+    margin-top: 1rem;
+    padding:5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #022927e6;
+  }
+ 
+
+  ul {
+    list-style-type: square;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  ul li {
+    margin: 5px 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #150750ad;
+    font-weight: bolder;
+  }
+  
+
+  button {
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #022927e6;
+    box-shadow: 0 0 15px #101111e6;
+  }
+
+  button:hover {
+    background-color: #022927e6;
+    color: white;
+    width: 90%;
+  }
+
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .resume-container {
+      flex-wrap: nowrap;
+    }
+
+    .left-section {
+      width: 35%;
+      margin: 0;
+    }
+
+    .right-section {
+      width: 65%;
+    }
+
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    span {
+      font-size: 3rem;
+    }
+  }
+
